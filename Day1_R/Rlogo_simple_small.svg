@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Copyright (C) 2015-2016 The R Foundation
+
+You can distribute this logo under the terms of the Creative
+Commons Attribution-ShareAlike 4.0 International license (CC-BY-SA
+4.0) or (at your option) the GNU General Public License version 2
+(GPL-2).
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, a copy is available at
+https://www.R-project.org/Licenses/
+
+The text of the CC BY-SA 4.0 license is available at
+https://creativecommons.org/licenses/by-sa/4.0/
+-->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   preserveAspectRatio="xMidYMid"
+   width="2.0432899cm"
+   height="1.583267cm"
+   viewBox="0 0 72.400039 56.100012"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Rlogo_simple_small.svg">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     id="namedview20"
+     showgrid="false"
+     units="cm"
+     inkscape:zoom="3.3654189"
+     inkscape:cx="14.828284"
+     inkscape:cy="37.277928"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="gradientFill-1"
+       x1="0.7414425"
+       x2="590.86261"
+       y1="3.6658268"
+       y2="593.78699"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       gradientTransform="matrix(0.11582341,0,0,0.07757021,0.8201236,1.1706032)">
+      <stop
+         offset="0"
+         stop-color="rgb(203,206,208)"
+         stop-opacity="1"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="rgb(132,131,139)"
+         stop-opacity="1"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="gradientFill-2"
+       x1="301.02603"
+       x2="703.0675"
+       y1="151.4006"
+       y2="553.44208"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad"
+       gradientTransform="matrix(0.09383349,0,0,0.09574882,0.8201236,1.1706032)">
+      <stop
+         offset="0"
+         stop-color="rgb(39,109,195)"
+         stop-opacity="1"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="rgb(22,92,170)"
+         stop-opacity="1"
+         id="stop14" />
+    </linearGradient>
+  </defs>
+  <path
+     d="M 35.080922,47.230782 C 16.206692,47.230782 0.906,36.983528 0.906,24.342919 0.906,11.702216 16.206692,1.4549621 35.080922,1.4549621 c 18.874326,0 34.174922,10.2472539 34.174922,22.8879569 0,12.640609 -15.300596,22.887863 -34.174922,22.887863 z m 5.231067,-36.827423 c -14.346098,0 -25.975905,7.005467 -25.975905,15.647135 0,8.64167 11.629807,15.647136 25.975905,15.647136 14.346005,0 24.933162,-4.789458 24.933162,-15.647136 0,-10.854265 -10.587157,-15.647135 -24.933162,-15.647135 z"
+     id="path16"
+     inkscape:connector-curvature="0"
+     style="fill:url(#gradientFill-1);fill-rule:evenodd" />
+  <path
+     d="m 52.952598,36.905045 c 0,0 2.068427,0.624168 3.270128,1.232222 0.416964,0.210995 1.138384,0.632035 1.658761,1.184829 0.509761,0.541419 0.75829,1.090042 0.75829,1.090042 l 8.151623,13.744017 -13.175298,0.0059 -6.16111,-11.569807 c 0,0 -1.261606,-2.167669 -2.037906,-2.796197 -0.647581,-0.524263 -0.923693,-0.710897 -1.563974,-0.710897 -0.445685,0 -3.130413,0 -3.130413,0 l 0.0024,15.06856 -11.658716,0.005 0,-38.491586 23.41222,0 c 0,0 10.663461,0.192321 10.663461,10.337585 0,10.145264 -10.189529,10.900427 -10.189529,10.900427 z m -5.071068,-12.888664 -7.058074,-0.0046 -0.0035,6.544996 7.061581,-0.0022 c 0,0 3.270128,-0.01014 3.270128,-3.32937 0,-3.385956 -3.270128,-3.208801 -3.270128,-3.208801 z"
+     id="path18"
+     inkscape:connector-curvature="0"
+     style="fill:url(#gradientFill-2);fill-rule:evenodd" />
+</svg>
