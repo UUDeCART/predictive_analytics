@@ -1,30 +1,17 @@
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>get_duplicated.R</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <style type="text/css">
-    html, body, #container {
-      height: 100%;
-    }
-    body, #container {
-      overflow: hidden;
-      margin: 0;
-    }
-    #iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
-  <div id="container">
-    <iframe id="iframe" sandbox="allow-scripts" src="/user/halpo/files/get_duplicated.R"></iframe>
-  </div>
-</body>
-
-</html>
+get_duplicated_<- function(.data, key.col, ..., .dots){
+    .names <- names(collect(head(.data,1)))
+    dots <- lazyeval::all_dots(.dots, ...)
+    vars <- select_vars_(.names, dots)
+    key.col <- select_vars_(vars=.names, args=key.col)
+    all.vars <- c(key.col, dots)
+    .data %>% 
+        select_(.dots=all.vars) %>% distinct %>%
+        count_(key.col) %>% 
+        filter_(~n>1) %>% select(-n) %>%
+        left_join(.data %>% select_(.dots=all.vars) %>% distinct
+                 , by=key.col)
+}
+get_duplicated <- function(.data, key, ...){
+    key.col <- tidyr:::col_name(substitute(key))
+    get_duplicated_(.data, key.col=key.col, .dots = lazyeval::lazy_dots(...))
+}
